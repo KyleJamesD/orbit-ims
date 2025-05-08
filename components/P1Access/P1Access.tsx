@@ -730,7 +730,7 @@ export default function P1AccessPage() {
   };
 
   const odorTableData: TableData = {
-    head: ['ODOR ID', 'Employee', 'Date Submitted', 'Status'],
+    head: ['OTOR ID', 'Employee', 'Date Submitted', 'Status'],
     body: paginatedOdor,
   };
 

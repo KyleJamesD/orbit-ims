@@ -316,7 +316,7 @@ export default function OdorModal({
         <>
           <Modal opened={opened} onClose={close} title="Confirmation" centered>
             <Text classNames={{ root: classnames.rootConfirmationText }}>
-              Do you want to proceed with the {confirmation ? 'approval' : 'rejection'} of the ODOR?
+              Do you want to proceed with the {confirmation ? 'approval' : 'rejection'} of the OTOR?
             </Text>
             <Group classNames={{ root: classnames.rootBtnArea }}>
               <Button
@@ -332,7 +332,7 @@ export default function OdorModal({
             </Group>
           </Modal>
 
-          <Text classNames={{ root: classnames.rootText }}>On-Demand Order Requisition</Text>
+          <Text classNames={{ root: classnames.rootText }}>One-Time Order Requisition</Text>
           <TextInput
             disabled
             label="Employee Name"

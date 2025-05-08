@@ -479,9 +479,9 @@ export const NAV_ITEMS: navCollection = {
       ],
     },
     {
-      label: 'ODOR',
+      label: 'OTOR',
       icon: IconNotes,
-      links: [{ label: 'Create On-demand Order Requisition', link: '/odor' }],
+      links: [{ label: 'Create One-Time Order Requisition', link: '/odor' }],
     },
     {
       label: 'Inventory',

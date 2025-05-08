@@ -203,7 +203,7 @@ export default function OdorPage() {
         }}
       >
         <div>
-          <Text classNames={{ root: classnames.rootText }}>Create On-Demand Order Requisition</Text>
+          <Text classNames={{ root: classnames.rootText }}>Create One-Time Order Requisition</Text>
           <div className={classnames.progressBar}>
             <WizardProgress stepList={stepList} currentStep={pageNumber + 1} />
           </div>

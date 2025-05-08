@@ -304,7 +304,7 @@ export default function RequisitionProcessTable() {
               {/* Table Header */}
               <Table.Thead className={classnames.rootRequisitionThead}>
                 <Table.Tr>
-                  <Table.Th>ODOR ID</Table.Th>
+                  <Table.Th>OTOR ID</Table.Th>
                   <Table.Th>Employee</Table.Th>
                   <Table.Th>Date Submitted</Table.Th>
                   <Table.Th>Status</Table.Th>
